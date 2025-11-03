@@ -6,7 +6,7 @@ metadata:
   name: ktcloud-svc
 spec:
   selector:
-    color: green    # 무슨 라벨이 부착된 파드로 포워딩할것인가?
+    color: blue    # 무슨 라벨이 부착된 파드로 포워딩할것인가?
   ports:
   - port: 80
     targetPort: 80
